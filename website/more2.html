@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>PlayValorant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets/images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="bundleweapon.html">BUNDLE WEAPON</a></li>
+                    <li><a href="communitycode.html">COMMUNITY CODE</a></li>
+                    <li><a href="more2.html">MORE</a></li>
+                    <li><a href="http://localhost/UASERP/logout.php">LOGOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>WELCOME TO VALORANT PBE REGISTRATION</h1>
+            <p>VALORANT</p>
+            <a href="http://localhost/TO/" class="hero-btn">CREATE AN ACCOUNT</a>
+        </div>
+    </section>
+    <!-------- VALORANT PBE REGISTRATION -------->
+    <section class="regis">
+        <div class="row">
+            <div class="regis-col">
+                <h1>VALORANT PUBLIC BETA ENVIRONMENT</h1>
+                <p>Greetings! The Public Beta Environment, or PBE for short, is looking for intrepid Agents like yourself to test cutting edge VALORANT content. So what is a PBE? Well, it's a server where you can try out upcoming features that aren't (and
+                    may never be) implemented in-game. You'll be able to break in new maps, assess new Agents, and more! Better yet, we'll try to squash any pesky bugs you find along the way to ensure our shiny new content is well-tuned and (hopefully)
+                    glitch-free before it goes live. Interested in becoming part of VALORANT's future? Read on!</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-----Footer ----->
+    <Section class="footer">
+        <h4>About Us</h4>
+        <p>Valorant (stylized as VALORANT) is a free-to-play multiplayer tactical first-person hero shooter developed and published by Riot Games, for Microsoft Windows. First teased under the codename Project A in October 2019, the game began a closed beta
+            period with limited access on April 7, 2020, followed by an official release on June 2, 2020. Development of the game began in 2014.</p>
+        <div class="icon">
+            <i class="fa fa-twitter" style='font-size:30px'></i>
+            <i class="fa fa-youtube" style='font-size:30px'></i>
+            <i class="fa fa-instagram" style='font-size:30px'></i>
+            <i class="fa fa-facebook" style='font-size:30px'></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o" style='font-size:30px'></i> Thanks Youtube</p>
+    </Section>
+
+    <!--------Javascript for Toggle Menu--------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
